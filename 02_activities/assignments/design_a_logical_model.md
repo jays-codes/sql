@@ -1,3 +1,5 @@
+# Participant Name: Isaias Menorca
+
 # Assignment 1: Design a Logical Model
 
 ## Question 1
