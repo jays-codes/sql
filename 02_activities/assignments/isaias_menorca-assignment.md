@@ -5,12 +5,12 @@ Create a logical model for a small bookstore. 📚
 
 At the minimum it should have employee, order, sales, customer, and book entities (tables). Determine sensible column and table design based on what you know about these concepts. Keep it simple, but work out sensible relationships to keep tables reasonably sized. Include a date table. There are several tools online you can use, I'd recommend [_Draw.io_](https://www.drawio.com/) or [_LucidChart_](https://www.lucidchart.com/pages/).
 
-[Question 1: Answer](./isaias_menorca-assignment.png)
+[Question 1: Answer](./erd1.png)
 
 ## Question 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
 
-[Question 2: Answer](./isaias_menorca-assignment.png)
+[Question 2: Answer](./erd1.png)
 The fields: start_time, end_time, and shift_name enables discerning morning/evening shifts
 
 ## Question 3
@@ -22,6 +22,9 @@ Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
 [Question 3: Answer]
+
+[Architecture1] (./erd1.png)
+[Architecture2] (./erd2.png)
 
 #### Architecture 1: Overwrite Changes (Type 1)
 - **Table Structure**:
@@ -86,9 +89,9 @@ Highlight at least two differences between it and your ERD. Would you change any
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `model-design`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [ok] Create a branch called `model-design`.
+- [ok] Ensure that the repository is public.
+- [ok] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [ok] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack at `#cohort-4-help`. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
